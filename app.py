@@ -29,7 +29,7 @@ def calculate_distance(lat1, lon1, lat2, lon2):
 try:
     with open('Log.txt','r') as f:
         data = f.read()
-    data = data[-1]
+    data = data[0]
 except:
     data='0'
 if int(data) > -1:
@@ -46,7 +46,7 @@ try:
     with open('Log.txt','r') as f:
         data = f.read()
         
-    data = data[-1]
+    data = data[0]
 except:
     data='0'   
 
@@ -68,7 +68,7 @@ try:
     with open('Log.txt','r') as f:
         data = f.read()
         
-    data = data[-1]
+    data = data[0]
 except:
     data='0' 
 if int(data) > 1:
@@ -100,7 +100,7 @@ try:
     with open('Log.txt','r') as f:
         data = f.read()
         
-    data = data[-1]
+    data = data[0]
 except:
     data='0'                
 if int(data) > 2:
@@ -165,7 +165,7 @@ try:
     with open('Log.txt','r') as f:
         data = f.read()
         
-    data = data[-1]
+    data = data[0]
 except:
     data='0'                
 if int(data) > 3:
